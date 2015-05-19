@@ -1,0 +1,54 @@
+body {
+  background: #efefef;
+  font-family: menlo, monosopace, sans-serif;
+  text-align: center;
+  margin: 10% 30px;
+}
+
+.code-box {
+  text-align: left;
+  border: 3px solid #38c;
+  font-family: monospace;
+  width: 165px;
+  min-height: initial;
+  padding: 15px 10px;
+  line-height: 1.6em;
+  display: inline-block;
+  background: white;
+  vertical-align: top;
+  margin-top: 45px;
+
+  color: #059;
+}
+  .gray {
+    color: gray;
+  }
+
+.styled-box {
+  border: 3px solid #38c;
+  width: 200px;
+  min-height: 200px;
+  display: inline-block;
+  background: white;
+  vertical-align: top;
+  color: #059;
+}
+
+.becomes {
+  color: #059;
+  margin-top: 70px;
+  width: 230px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+
+  font-size: 14px;
+}
+.becomes:after {
+  content: " ";
+  border-top: 3px dotted #38c;
+  position: Absolute;
+  left: -10px;
+  right: -10px;
+  margin-top: 30px;
+}

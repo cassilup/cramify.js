@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="example.css" rel="stylesheet" type="text/css">
+    <link href="../cramify.css" rel="stylesheet" type="text/css">
+    <script  src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script  src="../cramify.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <div class="code-box">
+      <span class="gray">&lt;div class="example"&gt;</span><br>
+        &nbsp;&nbsp;cramify.js<span class="gray">&lt;br&gt;</span><br>
+        &nbsp;&nbsp;rocks<br>
+        <span class="gray">&lt;/div&gt;</span>
+    </div>
+
+    <div class="becomes">
+      $('.example').cramify()
+    </div>
+
+    <div class="styled-box example">
+      cramify.js<br>
+      rocks
+    </div>
+
+    <script type="text/javascript">
+      $(".example").cramify({
+        lineSpacing: '3px'
+      });
+    </script>
+  </body>
+</html>

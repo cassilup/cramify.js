@@ -1,0 +1,26 @@
+/*body {
+  font-family: verdana, sans-serif;
+}*/
+
+.cramify-wrap {
+  position: relative;
+}
+
+.cramify-line {
+  font-family: verdana, sans-serif;
+  text-align: center;
+  line-height: 85%;
+  /*padding-top: 4px;
+  padding-bottom: 4px;*/
+  display: block;
+  white-space: nowrap;
+}
+
+.cramify-char {
+  display: inline-block;
+}
+
+.cramify-space {
+  color: transparent;
+  width: .4em;
+}
