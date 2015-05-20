@@ -26,18 +26,13 @@
 
           // make everything uppercase
           src = src.toUpperCase();
-          console.log(src);
+
           // except <br> elements
           src = src.replace(/<br>/gi, '<br>');
-          console.log(src);
           src = src.replace(/<br[/]>/gi, '<br>');
-
-          console.log(src);
 
           // replace newlines with <br>
           src = src.replace(/(?:\r\n|\r|\n)/g, '<br>');
-
-                  console.log(src);
 
           // break each line by <br>
           lines = src.split('<br>');
