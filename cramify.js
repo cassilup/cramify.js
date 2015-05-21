@@ -143,8 +143,7 @@
           $(wrapperElm).css('min-height', 'initial');
           $(wrapperElm).css('padding', verticalPadding + 'px 0');
 
-
-          // remove unnecessary .cramify-char DIVs to
+          // remove unnecessary .cramify-line DIVs to
           $(wrapperElm).find('.cramify-line').each(function(lineElmIndex, lineElm) {
             $(lineElm).html($(lineElm).text());
           });
